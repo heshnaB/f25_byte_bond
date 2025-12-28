@@ -51,7 +51,9 @@ The project focuses primarily on front-end development and user experience, with
 
 ## Project Structure
 src/
+
 ├── androidTest/                  # Instrumented tests (Android device/emulator)
+
 └── main/
     ├── java/
     │   └── com.example.myapplication/
