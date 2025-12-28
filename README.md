@@ -70,25 +70,25 @@ src/
     │       │   └── README.md     # Notes/docs for the logic layer
     │       │
     │       ├── ui.theme/         # UI layer (screens, navigation, theme)
-    │       │   ├── adminDashb/   # Admin dashboard screens/components
-    │       │   ├── proctorDashb/ # Proctor dashboard screens/components
-    │       │   ├── professorDashb/ # Professor dashboard screens/components
-    │       │   ├── studentDashb/ # Student dashboard screens/components
+    │       │   ├── adminDashb/
+    │       │   ├── proctorDashb/
+    │       │   ├── professorDashb/
+    │       │   ├── studentDashb/
     │       │   ├── button.kt
     │       │   ├── Color.kt
     │       │   ├── LoginScreen.kt
     │       │   ├── MainDashboard.kt
     │       │   ├── MainInbox.kt
     │       │   ├── MainLayout.kt
-    │       │   ├── NavGraph.kt   # Navigation graph/routes
+    │       │   ├── NavGraph.kt
     │       │   ├── RealTimeStatusListener
     │       │   ├── SelectUserType.kt
     │       │   ├── Theme.kt
     │       │   └── Type.kt
     │       │
-    │       └── MainActivity.kt   # App entry point
+    │       └── MainActivity.kt
     │
-    └── res/                      # Android resources (drawables, values, etc.)
+    └── res/
 
 
 ## Setup & Installation
