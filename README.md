@@ -50,8 +50,8 @@ The project focuses primarily on front-end development and user experience, with
 - Version Control: Git & GitHub
 
 ## Project Structure
+```text
 src/
-
 ├── androidTest/                  # Instrumented tests (Android device/emulator)
 └── main/
     ├── java/
@@ -89,7 +89,8 @@ src/
     │       │
     │       └── MainActivity.kt
     │
-    └── res/
+    └── res/ # Android resources
+```
 
 
 ## Setup & Installation
