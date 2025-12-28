@@ -51,44 +51,45 @@ The project focuses primarily on front-end development and user experience, with
 
 ## Project Structure
 src/
-├── androidTest/                 # Instrumented tests (Android device/emulator)
+├── androidTest/                  # Instrumented tests (Android device/emulator)
 └── main/
     ├── java/
     │   └── com.example.myapplication/
-    │       ├── data/            # Data layer (models, repositories, state)
-    │       │   ├── firebase/    # Firebase-related data access/helpers
-    │       │   ├── repository/  # Repository classes (data sources)
-    │       │   ├── viewmodels/  # ViewModels / UI state holders
-    │       │   └── README.md    # Notes/docs for the data layer
+    │       ├── data/             # Data layer (models, repositories, state)
+    │       │   ├── firebase/     # Firebase-related data access/helpers
+    │       │   ├── repository/   # Repository classes (data sources)
+    │       │   ├── viewmodels/   # ViewModels / UI state holders
+    │       │   └── README.md     # Notes/docs for the data layer
     │       │
-    │       ├── logic/           # App/business logic by feature
-    │       │   ├── auth/        # Authentication logic
-    │       │   ├── messaging/   # Messaging feature logic
-    │       │   ├── notification/# Notifications feature logic
-    │       │   ├── scheduling/  # Scheduling feature logic
-    │       │   ├── utils/       # Shared utilities/helpers
-    │       │   └── README.md    # Notes/docs for the logic layer
+    │       ├── logic/            # App/business logic by feature
+    │       │   ├── auth/         # Authentication logic
+    │       │   ├── messaging/    # Messaging feature logic
+    │       │   ├── notification/ # Notifications feature logic
+    │       │   ├── scheduling/   # Scheduling feature logic
+    │       │   ├── utils/        # Shared utilities/helpers
+    │       │   └── README.md     # Notes/docs for the logic layer
     │       │
-    │       ├── ui.theme/        # UI layer (screens, navigation, theme)
-    │       │   ├── adminDashb/  # Admin dashboard screens/components
-    │       │   ├── proctorDashb/# Proctor dashboard screens/components
+    │       ├── ui.theme/         # UI layer (screens, navigation, theme)
+    │       │   ├── adminDashb/   # Admin dashboard screens/components
+    │       │   ├── proctorDashb/ # Proctor dashboard screens/components
     │       │   ├── professorDashb/ # Professor dashboard screens/components
-    │       │   ├── studentDashb/# Student dashboard screens/components
+    │       │   ├── studentDashb/ # Student dashboard screens/components
     │       │   ├── button.kt
     │       │   ├── Color.kt
     │       │   ├── LoginScreen.kt
     │       │   ├── MainDashboard.kt
     │       │   ├── MainInbox.kt
     │       │   ├── MainLayout.kt
-    │       │   ├── NavGraph.kt  # Navigation graph/routes
+    │       │   ├── NavGraph.kt   # Navigation graph/routes
     │       │   ├── RealTimeStatusListener
     │       │   ├── SelectUserType.kt
     │       │   ├── Theme.kt
     │       │   └── Type.kt
     │       │
-    │       └── MainActivity.kt  # App entry point
+    │       └── MainActivity.kt   # App entry point
     │
-    └── res/                     # Android resources (drawables, values, etc.)
+    └── res/                      # Android resources (drawables, values, etc.)
+
 
 ## Setup & Installation
 1. Clone the repository
